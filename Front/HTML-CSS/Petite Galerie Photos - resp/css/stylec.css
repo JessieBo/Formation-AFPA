@@ -1,0 +1,58 @@
+body {
+    background-image: url(../img/bg.jpg);
+    font-size: 1.5em;
+    color: azure;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.5em;
+    color: forestgreen;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.gallery img {
+
+    margin: 3px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    height: 300px;
+
+    /* flex: 1 1 auto; */ /* qui est la version abrégée de ... */
+
+    flex-grow : 1;      /* Elle indique la quantité d'espace que l'élément devrait consommer dans un conteneur flexible relativement à la taille des autres éléments du même conteneur */
+    flex-shrink: 1;     /* La propriété flex-shrink définit le facteur de rétrécissement d'un élément flexible. Si la taille de l'ensemble des éléments flexibles est supérieure à la taille du conteneur, les éléments seront comprimés selon leur facteur flex-shrink.*/
+    flex-basis: auto;   /* La propriété flex-basis détermine la base de flexibilité utilisée comme taille initiale principale pour un élément flexible. */
+    
+    max-width: 300px;
+    min-width: 130px;
+
+    /* La propriété object-fit restreint la taille d'un contenu à celle de son parent tout en conservant
+    /* son ratio */
+    object-fit: cover;
+    /* transition: transform 0.2s; */
+     
+}
+
+.gallery:hover img {
+
+    /* blur() pour obtenir un flou gaussien */
+    /* brightness() pour rendre une image plus sombre ou plus claire */
+    /* grayscale() convertit une image en niveau de gris */
+    /* scale() permet de modifier la taille d'un élément */
+    filter: blur(3px) brightness(0.8) grayscale(1);
+    transform: scale(0.8);
+}
+
+.gallery img:hover {
+    filter: blur(0);
+    transform: scale(1);
+}

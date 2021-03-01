@@ -1,0 +1,123 @@
+body {
+   background: linear-gradient(135deg, #fff 0%,#fff 10%,#E9290F 10%,#E9290F 40%,#535353 40%,#535353 100%);
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+body li {
+    list-style: none;
+    padding: 0px 20px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 32px 0px 0px rgba(231, 226, 226, 0.5);
+    transition: border-top 300ms linear;
+}
+header .container:hover {
+  border-top: 2rem solid white;
+  margin-top: -10px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+header .container li a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.slider {
+    padding-top: 15px;;
+}
+.work {
+    width: 100%;
+}
+h2 {
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 1px white solid;
+}
+h2 span {
+    font-weight: normal;
+}
+.work img {
+    width: 150px;
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+.work ul {
+    display: flex;
+    align-content: space-between;
+    height: 460px;
+    margin: 10px 20px;
+    padding: 20px 50px;
+}
+.work li {
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    width: 22%;
+    margin: 15px 20px;
+    padding: 0px 10px;
+    flex: 1 1;
+}
+.work li a {
+    line-height: 2em;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    border-bottom: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+section article {
+    display: flex;
+    align-content: space-between;
+}
+.social {
+    text-align: justify;
+    margin-left: 30px;
+    width: 40%;
+}
+.social i {
+    color: red;
+    font-size: 3em;
+    margin: 5px 10px;
+    padding-top: 30px;
+}
+.video {
+    margin-left: 150px;
+}
+footer {
+    line-height: 2em;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: auto;
+}
+footer h2 {
+    border: none;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+footer li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.slider{
+    padding: 10px;
+    margin: 50px auto 0;
+    box-shadow: 0 0 25px rgba(0,0,0, 0.2);
+}
+.flexslider{
+    margin: 0;
+    border: 0;
+}

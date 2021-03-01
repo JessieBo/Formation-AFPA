@@ -1,0 +1,157 @@
+body {
+    font-size: 1em;
+    background:url(img/fond.jpg);
+    color: white;
+}
+h2, h3 {
+    font-size: 2em;
+}
+header {
+    width: 100%;
+    background-color: rgb(162, 201, 178);
+}
+header .container {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px;
+}
+header li {
+    display: inline;
+}
+header ul a {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    padding: 20px;
+}
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+main #presentation {
+    line-height: 2em;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+main #recipe {
+    float: left;
+    width: 60%;
+    background-color: rgb(80, 77, 77);
+    margin: 15px;
+    padding: 20px 5px;
+    text-align: center;
+}
+#recipe span {
+    display: block;
+    color:  rgb(30, 172, 89);
+    font-size: 1.5em;
+}
+#recipe h3 i {
+    color: rgb(214, 191, 59);
+}
+article {
+    display: inline-block;
+    text-align: justify;
+}
+article h3 {
+    text-align: center;
+}
+article a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(162, 201, 178);
+    padding: 10px;
+}
+.gauche {
+    float: left;
+    width: 47%;
+    padding: 4px 10px;
+}
+.gauche a:nth-of-type(1) {
+    float: left;
+    background-color: transparent;
+}
+.droite {
+    float: right;
+    width: 47%;
+    padding: 4px 10px;
+}
+.droite img {
+    float: left;
+}
+aside {
+    float: right;
+    height: 650px;
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(162, 201, 178);
+}
+aside img {
+    display: block;
+    float: right;
+    position: absolute;
+    margin: -100px 320px;
+}
+aside span {
+    color: black;
+}
+footer {
+    margin-top: auto;
+    margin-left: 550px;
+    text-align: center;
+}
+aside li {
+    list-style-type: none;
+    margin: 0px 5px 0px -30px;
+}
+aside a {
+    text-decoration: none;
+    color: rgb(6, 105, 64);
+    font-weight: bold;
+}
+aside i {
+    color: black;
+    margin: 0px 10px;
+}
+aside p {
+    text-align: center;
+}
+#overlay3{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:5; left:0;
+    z-index: 1000;
+}
+#overlay3 .rolex {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+#overlay3:target{
+    display: block;
+    color: black;
+}
+.popup_block{
+    background:rgb(162, 201, 178);
+    padding: 20px;
+    border: 20px solid #ddd;
+    position: relative;
+    margin: 10% auto;
+    width: 40%;
+    box-shadow: 0px 0px 20px #000;
+    border-radius: 10px;
+}
+.popup_block h2 {
+    text-align: center;
+}
+img.btn_close {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: -55px -55px 0 0;
+}

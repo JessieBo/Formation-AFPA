@@ -1,0 +1,101 @@
+html, body {
+    background: url("../img/bg.jpg");
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+    width: 90%;
+    margin: 10px auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+h1 {
+    color: rgb(252, 0, 117);
+    font-weight: bold;
+    font-size: 56px;
+}
+form {
+    font-size : 0.85em;
+}
+#tableau_formulaire {
+    width: 60%;
+    margin : 0 auto;
+    font-size: 20px;
+}
+th {
+    color: rgb(252, 0, 117);
+    font-weight: bold;
+    text-align: center;
+}
+#nom a {
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+td {
+    text-align: left;
+    width: 25%;
+}
+.erreur {
+    text-align: center;
+    font-size: 15px;
+    width: 20%;
+}
+input {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#btn_ajout {
+    font-weight: bold;
+    color: rgb(228, 253, 1);
+}
+h3 {
+    font-size: 1.5em;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin: 5px 5px;
+}
+#retour  {
+    margin : 15px;
+    background-color: rgb(26, 21, 21);
+    border: 2px solid rgb(0, 147, 206);
+    border-radius: 5px;
+}
+#retour a {
+    text-decoration: none;
+    color: rgb(248, 252, 0);
+}
+#retour a:hover, #annuler:hover, #valider:hover, #suppr {
+    color: rgb(241, 20, 94);
+}
+#annuler, #valider {
+    background-color: rgb(26, 21, 21);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(248, 252, 0);
+    width: 50%;
+    margin-left: 40px;
+    font-size: 18px;
+}
+#suppr {
+    font-size: 18px;
+}
+.page-link {
+    background-color: rgb(19, 4, 37);
+    color: rgb(243, 242, 242);
+}
+.page-link:hover {
+    background-color: rgb(247, 242, 242);
+    color: rgb(19, 4, 37);
+}
+table.dataTable > thead .sorting::after, table.dataTable > thead .sorting::before  {
+    color: yellow;
+    opacity: 1;
+}

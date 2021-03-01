@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="css/style.css">
+    <title>Informations Personnelles</title>
+</head>
+<body>
+    <header>
+        <h1>Mes Infos Personnelles</h1>
+    </header>
+    <main>
+        <form action="#" method="post" class="form-inline">
+
+            <div class="form-group">
+              <label for="nom" class="label" class="Nom">Nom : </label>
+              <input type="text" id="ChampNom" class="form-control mx-sm-3 champ" >
+              <small class="Messages" id="MessageNom"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="prenom" class="label">Prénom : </label>
+                <input type="text" id="ChampPrenom" class="form-control mx-sm-3 champ">
+                <small class="Messages" id="MessagePrenom"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="mail" class="label">Email : </label>
+                <input type="text" id="ChampEmail" class="form-control mx-sm-3 champ">
+                <small class="Messages" id="MessageMail"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="date" class="label">Date de naissance : </label>
+                <input type="date" id="ChampDDN" class="form-control mx-sm-3 champ">
+                <small class="Messages" id="MessageDDN"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="nom" class="label" class="Nom">Pseudo : </label>
+                <input type="text" id="ChampPseudo" class="form-control mx-sm-3 champ" >
+                <small class="Messages" id="MessagePseudo"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="nom" class="label" class="Nom">Mot de passe : </label>
+                <input type="password" id="mdp1" class="form-control mx-sm-3 champ" >
+                <small class="Messages" id="MessageMDP"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="nom" class="label" class="Nom">Confirmation mot de passe : </label>
+                <input type="password" id="mdp2" class="form-control mx-sm-3 champ" >
+                <small class="Messages" id="MessageCMDP"></small>
+              </div>
+
+              <div class="form-group boutons">
+                <button id="Envoyer" class="form-control mx-sm-3" />Valider</button>
+                <input type="reset" value="Annuler" id="Annuler" class="form-control mx-sm-3" />
+              </div>
+      </form>
+
+    </main>
+    <script src="js/infos.js"></script>
+</body>
+</html>

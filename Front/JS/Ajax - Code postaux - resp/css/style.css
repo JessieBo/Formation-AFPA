@@ -1,0 +1,48 @@
+body {
+    background: url("../img/bg.jpg");
+}
+h1 {
+    margin-top: 35px;
+    text-align: center;
+    color: rgb(241, 238, 11);
+    font-family: fantasy;
+}
+main {
+    width: 100%;
+}
+.form-inline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 125px;
+}
+i {
+    margin-right: 10px;
+}
+#CP, #ville {
+    border: 1px solid grey;
+    background-color: rgb(63, 47, 47);
+    color: white;
+    width: 500px;
+}
+#champ::placeholder {
+    color: rgb(255, 255, 255);
+}
+#rechercher {
+    border: 1px solid grey;
+    background-color: transparent;
+    font-weight: bold;
+    color: grey;
+    padding-left: 30px;
+    width: 140px;
+}
+.col-auto {
+    padding-left: 55px;
+    margin: 10px;
+}
+#message-erreur {
+    margin: -15px 140px;
+    text-align: start;
+}
+select {
+    background-color: red;
+}

@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color:white;
+    text-align: justify;
+}
+.jumbotron {
+    color: gray;
+    background-color: rgb(248, 236, 238);
+    padding: 20px;
+}
+.jumbotron .btn {
+    margin-top: 25px;
+}
+h4 {
+    margin: 15px 0px;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(21, 209, 21);
+}
+.card {
+    color: black;
+}
+.row {
+    margin: 15px 0px;
+}
+thead {
+    text-align: center;
+}
+.btn-info {
+    margin: 0px 5px;
+}
+address {
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}

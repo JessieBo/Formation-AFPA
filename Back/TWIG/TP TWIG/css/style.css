@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(122, 113, 113);
+}
+a {
+    color: white;
+}
+img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+}
+.container {
+    width: 60%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+p::first-letter {
+    font-family: 'Pacifico', cursive;
+    color: red;
+    font-size: 130%;
+}
+.accueil {
+    text-align: center;
+    font-size: 1.2em;
+}
+#retour {
+    float: right;
+}
+.accueil {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+strong {
+    margin-bottom: 15px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 auto;
+}

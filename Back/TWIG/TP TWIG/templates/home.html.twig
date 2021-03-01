@@ -1,0 +1,33 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}
+
+{{ parent() }} - Accueil
+
+{% endblock %}
+
+
+{% block body %}
+
+
+<br>
+
+<div class="accueil">
+<strong>Bienvenue à sur la page d'Accueil </strong>
+
+
+<h4>Les différents langages sont : </h4>
+
+<ul>
+{% for langage in langages %}
+    <li class="{% if loop.index is even %}pair
+    {% else %}impair
+    {% endif %}">
+    {{ langage }} </li>
+{% endfor %}
+</ul>
+
+</div>
+
+{% endblock %}
+

@@ -1,0 +1,172 @@
+.topbar {
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 5px;
+}
+header .container {
+    height: 240px;
+    background-color: #f6d4f5;
+}
+header .container img {
+    padding: 15px 50px;
+}
+#cart {
+    float: right;
+    margin: 0px 180px;
+}
+#cart .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+header .container span {
+    font-weight: bold;
+}
+header i {
+    float: right;
+    color: #f363ee;
+    background-color: #f6d4f5;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    margin: 45px;
+    padding-left: 50px;
+}
+main {
+    background-color: rgb(226, 225, 225);
+    padding : 15px;
+}
+#slider {
+    background-color: white;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+#slider img {
+    width: 97%;
+    margin: auto;
+    padding: 15px;
+}
+#slider > h2 {
+    position: absolute;
+    opacity: 0.7;
+    background-color: #f6d4f5;
+    margin: 15px;
+    font-weight: bold;
+}
+#slider > h2 > span {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+#select {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 80%;
+    margin: 10px auto;
+    background-color: #fff;
+}
+#select article {
+    margin: 25px;
+}
+#select h1:nth-of-type(1){
+    margin: 15px;
+    flex: 1 100%;
+}
+#select img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+}
+.escarpin {
+    background-color: #fff;
+    opacity: 0.5;
+}
+.escarpin:hover {
+    background-color: #fff;
+    opacity: 1.5;
+}
+.escarpin h3 {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+#news {
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#new, #best, #crush {
+    padding: 0px 10px 10px;
+    background-color: white;
+}
+#new h2 {
+    background-color:rgb(241, 28, 206);
+    text-align: center;
+    color: white;
+}
+#best h2 {
+    background-color: rgb(57, 231, 57);
+    text-align: center;
+    color: white;
+}
+#crush h2 {
+    background-color: rgb(49, 166, 245);
+    text-align: center;
+    color: white;
+}
+#news h3 {
+    text-align: center;
+    font-style: italic;
+}
+#news small {
+    font-style: italic;
+}
+footer #info, i {
+    background-color: rgb(234, 131, 243);
+    color: black;
+    padding-bottom: 10px;
+}
+footer #info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 80px;
+    text-align: center;
+}
+footer #info article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer #bottombar {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 5px 100px;
+    background-color: #f6d4f5 ;
+    text-align: center;
+}
+footer #bottombar article h2 {
+    margin: 15px 50px 0px 100px;
+}
+footer #bottombar ul {
+    list-style-type: none;
+}
+@media (max-width: 800px) {
+    body {
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+    #select {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

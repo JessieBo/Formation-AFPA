@@ -1,0 +1,32 @@
+body {
+    background-image: url(img/bg.jpg);
+}
+h1 {
+    font-family: fantasy;
+    color: rgb(84, 240, 84);
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery img {
+    margin: 5px;
+    padding: 5px;
+    height: 180px;
+    max-width: 260px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    object-fit: cover;
+    border: 3px solid white;
+    opacity: 0.8;
+    filter: grayscale(1);
+    transition: all 0.5s;
+}
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.10);
+}

@@ -1,0 +1,63 @@
+html {
+     background-image: url(img/fond.png);
+}
+body {
+    background-color: #fff;
+    width: 750px;
+    margin: 0px 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+h1 {
+    color: orange;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: oswald, 'Times New Roman', Times, serif;
+}
+#P1, #P2 {
+    margin: 50px 0px 25px 5px;
+    width: 98%;
+    text-align: justify;
+}
+img {
+    float: left;
+    margin-left: 5px;
+    padding: 0px 10px 0px 0px;
+}
+header {
+    display: inline-block;
+    width: 90.3%;
+}
+nav {
+    display: block;
+    width: 105%;
+    height: 20px;
+    font-family: oswald, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    background-color: rgba(245, 70, 1, 0.493);
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 20px 50px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(224, 19, 19);
+    margin: 0px 0px 10px 10px;
+}
+button {
+    font-size: 16px;
+    font-family: cursive;
+    text-decoration: none;
+    color:  rgb(224, 19, 19);
+    border: 0px solid orangered;
+    border-radius: 25px;
+    background-color: rgba(245, 70, 1, 0.493);
+    float: right;
+    padding: 5px 10px;
+}
+footer {
+    font-style: italic;
+    padding-top: 145px;
+    margin-bottom: 50px;
+}
+

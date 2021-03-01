@@ -1,0 +1,83 @@
+html {
+    width: 98%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(42, 157, 165);
+}
+body {
+    font-family: Open Sans, 'Times New Roman', Times, serif;
+}
+h2 {
+    font-family: PT Sans Narrow, 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    color: white;
+    background-color:  rgb(80, 24, 24);
+    border-radius: 15px;
+    padding: 10px 0px;
+    margin-left: 25px;
+    width: 90%;
+    text-align: center;
+}
+section h2 {
+    width: 96%;
+}
+h2 i {
+    background-color:  rgb(80, 24, 24);
+}
+nav {
+    background-color:  rgb(80, 24, 24);
+    margin: 0px 0px 15px;
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    font-size: 1.6em;
+    background-color:  rgb(80, 24, 24);
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+}
+nav a:hover {
+    background-color: rgb(248, 122, 122);
+    animation-name: couleur;
+    transition: 5s;
+}
+header img {
+    margin: 0px 450px;
+}
+p {
+    margin: 10px 10px 10px 20px;
+    text-align: justify;
+}
+main img {
+    border: 3px solid rgb(80, 24, 24);
+    border-radius: 15px;
+    margin: 0px 0px 20px 50px;
+    width: 600px;
+    height: 400px;
+}
+section {
+    float: left;
+    width: 60%;
+}
+aside {
+    margin: -15px 0px 0px 0px;
+    float: right;
+    width: 40%;
+    height: 780px;
+    background-color: white;
+}
+img {
+    position: sticky;
+}
+@media screen and (max-width:1024px) {
+    body, img {
+        width: auto;
+    }
+    html {
+        background-color: greenyellow;
+    }
+    section, aside {
+        float: none;
+    }
+}

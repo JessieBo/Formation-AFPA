@@ -1,0 +1,52 @@
+header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+h2 {
+    font-family: 'Vast Shadow', cursive;
+    font-size: 4em;
+    color: rgba(214, 8, 8, 0.719);
+    text-align: center;
+}
+main {
+    border: 1px solid black;
+    padding: 15px 10px;
+    margin: 10px;
+}
+img {
+    border: 1px solid black;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    width: 30%;
+}
+
+#gallery {
+    height: 1000px;
+    overflow-y: auto;
+    
+}
+
+#imageClic {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+.terre, .feu, .eau, .evolution {
+    display: block;
+}
+.F {
+    border: 2px solid yellow;
+}
+.T {
+    border: 2px solid rgb(114, 106, 106);
+}
+.E {
+    border: 2px solid blue;
+}
+.EV {
+    border: 2px solid red;
+}
+
+.cache{
+    display: none;
+}

@@ -1,0 +1,78 @@
+body, html {
+    background: url(../img/bg.jpg);
+}
+h1 {
+    color: rgb(241, 10, 87);
+    text-align: center;
+    font-size: 12vh;
+}
+#Search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+input {
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 35px;
+}
+label {
+    color: rgb(241, 10, 87);
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 25px;
+}
+main {
+    display: flex;
+}
+#content {
+    width: 100%;
+    margin : 25px 18px;
+    padding: 15px
+}
+.container {
+    width: 30%;
+    color: white;
+}
+#carte {
+    width: 50%;
+    height : 60vh;
+    margin: 50px auto;
+}
+#nomPays, #Code {
+    font-size: 14px;
+}
+button {
+    display : block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color:rgb(241, 10, 87);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+.hr {
+    color: rgb(241, 10, 87);
+}
+#liste {
+    display: block;
+    width: 85%;
+    padding-left: 0px;
+    margin-top: 0;
+    list-style-type: none;
+    height: 100px;
+    overflow-y: auto;
+}
+.li {
+    padding-left: 5px;
+    background-color:rgb(241, 10, 87);
+    color: black;
+
+}
+.li:hover {
+    background-color: blue;
+    color : rgb(207, 207, 236);
+}

@@ -1,0 +1,187 @@
+/* https://www.web-eau.net/blog/15-effets-css3-pour-vos-images */
+
+* {
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    margin: 10px 10px;
+    background-image: linear-gradient(rgba(89, 89, 114, 0.5), rgba(52, 66, 199, 0.3)), url(img/fond.jpg);
+    font-size: 1.3em;
+}
+#realisation, #resume, .clear, #contact , #canvas, form {
+    width: 95%;
+    margin:0 auto;
+}
+header {
+    font-family: open sans, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+header img {
+    width: 35px;
+    height: 30px;
+}
+header img:hover {
+    transform: scale(2);
+}
+header span:hover {
+    color: #AB0C24;
+}
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px 50px;
+}
+header nav a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 50px;
+    margin: 15px 50px;
+}
+header nav a i {
+    padding: 15px;
+}
+header:hover {
+    transform: translate(15px,2);
+}
+#presentation {
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(250, 250, 196, 0.3)), url(img/bg_header1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section .container a {
+    border-radius: 15px;
+    box-shadow: 1px 5px 80px 1px white;
+    background-color:rgba(216, 8, 8, 0.932);
+}
+h1, h2, h3 {
+    font-family: courgette, 'Times New Roman', Times, serif;
+}
+h2, h3 {
+    border-radius: 20px;
+    background: linear-gradient(rgba(1, 5, 7, 0.4), rgba(30,69,85,0.7));
+    padding: 15px;
+    margin: 15px auto;
+    text-align: center; 
+    transition: all 1s ease-out;
+}
+h2::before, h2::after {
+    content: " ~ " ;
+}
+canvas {
+    width: 80%;
+    margin-left: 130px;
+}
+.column {
+    align-items: center;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 4px double #ff00ff;
+    text-align: justify;
+}
+.column i {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    animation : 3s infinite alternate grisrouge;
+}
+.clear {
+    clear: both;
+}
+.clear img {
+    width: 450px;
+    height: 350px;
+    padding: 15px 30px;
+}
+#resume p, #contact p {
+    text-align: justify;
+    padding: 15px 30px;
+}
+img[src="img/lagon.jpg"] {
+    float: right;
+}
+img[src="img/mineral.jpg"] {
+    float: left;
+}
+img[src="img/plante.jpg"] {
+    float: right;
+}
+.clear i {
+    padding: 10px 10px;
+}
+.clear a, .clear i {
+    color: red;
+    font-weight: bold;
+}
+form input, form textarea {
+    background-color: transparent;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left: 5px dotted white;
+    border-right: 5px dotted white;
+    border-radius: 45px;
+    padding: 15px 50px;
+    margin: 20px 50px;
+}
+input {
+    display: inline-block;
+    width: 40%;
+}
+input[name="name"] {
+    background: url(img/bg_form_name.svg) no-repeat;
+    padding-left: 60px;
+}
+input[name="mail"] {
+    background: url(img/bg_form_mail.svg) no-repeat;
+    padding-left: 60px;
+}
+textarea {
+    background: url(img/bg_form_message.svg) no-repeat;
+    padding-left: 60px;
+}
+textarea {
+    width: 90%;
+    height: 80px;
+}
+.valider {
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 5px 80px 1px white;
+    background-color:rgba(216, 8, 8, 0.932);
+}
+
+@keyframes grisrouge {
+    from {
+        color: grey;
+    }   to {
+        color: #AB0C24;
+    }
+}
+
+@media (max-width:600px) {
+    header {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    img {
+        float: none;
+        width: 50px;
+        height: 10px;
+    }
+}

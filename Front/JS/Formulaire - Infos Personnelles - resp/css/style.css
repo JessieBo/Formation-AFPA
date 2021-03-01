@@ -1,0 +1,90 @@
+body, html {
+    background: url("../img/bg.jpg");
+}
+body {
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 5em;
+    text-align: center;
+    color: rgb(231, 12, 140);
+}
+.form-inline {
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    padding: 30px 20px 30px 50px;
+}
+.champ {
+    font-size: 16px;
+    width: 25%;
+    padding: 10px;
+    margin: 10px 10px;
+}
+.label {
+    padding-top: 10px;
+    font-size: 20px;
+    float: left;
+    width: 30%;
+}
+.boutons {
+    display: block;
+    text-align: center;
+}
+input[type=reset], button {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(231, 12, 140);
+}
+small {
+    margin-left: 10px;
+    color: red;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1260px) {
+
+    #Envoyer {
+        margin-left: 10px;
+    }
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .label {
+        display: inline-flex;
+        padding-left: 30px;
+        width: 100%;
+    }
+    .champ {
+        width: 80%;
+        padding: 5px;
+    }
+    .form-inline {
+        width: 80%;
+        padding: 30px 20px 30px 10px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background-color: black;
+    }
+    .form-group {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    input[type=reset], button {
+        font-size: 1em;
+        font-weight: bold;
+        margin: 20px 20px 10px 20px;
+    }
+    .Messages {
+        display: block;
+        width: 100%;
+    }
+}

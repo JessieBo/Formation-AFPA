@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire fluide</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Formulaire fluide</h1>
+    <form action="#">
+        <div>
+            <p>Vous :</p>
+            <p> <label for="nom">Nom : </label> <input type="text" id="nom" autofocus> </p>
+            <p> <label for="prenom">Prénom : </label> <input type="prenom" id="prenom"> </p>
+            <p> <label for="email">E-mail : </label> <input type="email" id="email"> </p>
+            <p><small>Petit texte pour simplement étendre la hauteur de ce bloc de contenu. Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Labore sunt aut atque ab provident et architecto in quasi. Autem,
+                    inventore ipsa assumenda repellendus qui distinctio velit porro aspernatur obcaecati quia.</small>
+            </p>
+            <p> <input type="submit" value="Envoyer"> </p>
+        </div>
+        <div>
+            <p><label for="comm">Commentaires</label></p> <textarea name="comm" id="comm" cols="10"rows="5">Je suis un textarea dont la hauteur se calcule par rapport au bloc de contenu à ma gauche.</textarea>
+        </div>
+    </form>
+</body>
+
+</html>

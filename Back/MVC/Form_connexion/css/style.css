@@ -1,0 +1,113 @@
+body {
+    background-image: url("../img/bg.jpg");
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 4em;
+    color: rgb(226, 21, 107);
+    font-weight: bold;
+}
+#formulaire {
+    background: rgb(34, 36, 36);
+    border: 1px dashed black;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.champs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.champs > input {
+    width: 40%;
+    margin: 10px auto;
+}
+.champs > label {
+    width: 30%;
+    text-align: left;
+    margin: 15px 10px;
+}
+span {
+    width: 50%;
+}
+.infos {
+    width: 90%;
+    margin: 0 auto;
+}
+.boutons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34%;
+    text-align: center;
+    color: white;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+#seConnecter, #Enregistrer {
+    margin-left: -10px;
+    border: 2px solid white;
+    background: rgb(226, 21, 107);
+}
+#annuler {
+    margin-left: -65px;
+    border: 2px solid white;
+    background: rgb(226, 21, 107);
+}
+#creation {
+    display: flex;
+    justify-content: end;
+    color: rgb(226, 21, 107);
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#retour {
+    display: flex;
+    justify-content: start;
+    color: rgb(226, 21, 107);
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.erreur {
+    text-align: left;
+    display: block;
+    font-size: 0.8em;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color:red;
+}
+span {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    color:red;
+}
+.erreur_php {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: -30px;
+    font-size: 15px;
+    font-weight: bold;
+    color:red;
+}
+em {
+    font-size: 15px;
+}
+#mdp {
+    font-size: 0.5em;
+}
+#annuler a {
+    text-decoration: none;
+    color: white;
+}

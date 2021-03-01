@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Bree+Serif|Courgette);
+* {
+	box-sizing: border-box;
+	outline: none;
+	transition: all 0.3s ease 0s;
+}
+
+@keyframes grisrouge {
+	from {
+		color: grey;
+	}
+	to {
+		color: #AB0C24;
+	}
+}
+
+body {
+	font-family: "Bree Serif", Arial;
+	font-size: 1.3em;
+	line-height: 2;
+	margin: 0;
+	color: #999;
+	background-image: url(../img/fond.jpg);
+	background-size: 100%;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.clear::after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 20px;
+	padding-top: 30px;
+}
+
+header a {
+	text-decoration: none;
+	color: #999;
+	margin: 20px;
+	font-size: 1.6em;
+}
+
+header a img {
+	width: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+header a:hover img {
+	transform: scale(2, 2);
+}
+
+header a:hover span {
+	color: #AB0C24;
+}
+
+header nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #999;
+	margin: 40px;
+	font-size: 1.2em;
+}
+
+h1, h2, h3 {
+	font-family: "Courgette";
+	font-weight: normal;
+	color: #999;
+	color: white;
+	background-color: rgba(29, 75, 87, 0.4);
+	border-radius: 6px;
+	text-align: center;
+}
+
+h1:before, h1:after, h2:before, h2:after {
+	content: " - ";
+}
+
+h1 {
+	font-size: 2.5em;
+	color: #AB0C24;
+}
+
+h2 {
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 2px solid rgba(153, 153, 153, 0.1);
+}
+
+nav a i {
+	display: block !important;
+	text-align: center;
+}
+
+#presentation {
+	background-image: url(../img/bg_header1.jpg);
+	background-size: cover;
+	padding: 130px 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#presentation a {
+	background: linear-gradient(to bottom, #ff2d76 0%, #AB0C24 100%);
+	color: white;
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+section div a {
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #AB0C24;
+}
+
+section div a:hover {
+	background: linear-gradient(to bottom, #ff2d76 0%, #AB0C24 100%);
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	animation: grisrouge 0.5s ease infinite alternate;
+	transform: translate(0, 15px);
+}
+
+.column {
+	columns: 3 300px
+}
+
+.column i {
+	font-size: 1.7em;
+	background-color: rgba(153, 153, 153, 0.1);
+	border: 2px solid rgba(153, 153, 153, 0.2);
+	color: #999;
+	text-align: center;
+	width: 75px;
+	height: 75px;
+	line-height: 69px;
+	border-radius: 50%;
+	margin: 0 35%;
+}
+
+.column i:hover {
+	animation: grisrouge 0.5s ease infinite alternate;
+}
+
+canvas {
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	color: #999;
+}
+
+#resume div:nth-of-type(even) img {
+	float: left;
+	width: 50%;
+	margin-right: 25px;
+	margin-bottom: 15px;
+}
+
+#resume div:nth-of-type(odd) img {
+	float: right;
+	width: 50%;
+	margin-left: 25px;
+	margin-bottom: 15px;
+}
+
+#resume p {
+	text-align: justify;
+}
+
+/* formulaire */
+
+input, textarea {
+	padding: 20px 20px 20px 70px;
+	margin: 1%;
+	color: #666;
+	background-color: transparent;
+	border-radius: 50px;
+	border: 1px solid #ccc;
+	font-family: Arial;
+	font-size: 1.2em;
+}
+
+input {
+	width: 48%;
+	float: left;
+}
+
+input:first-child {
+	background-image: url(../img/bg_form_name.svg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 10px;
+}
+
+input:nth-of-type(2) {
+	background-image: url(../img/bg_form_mail.svg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 10px;
+}
+
+textarea {
+	width: 98%;
+	resize: none;
+	background-image: url(../img/bg_form_message.svg);
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position: 15px;
+	padding-left: 80px;
+}
+
+#contact form .valider {
+	background: linear-gradient(to bottom, #AB0C24 0%, #AB0C24 100%);
+	color: white;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+/* fin formulaire */

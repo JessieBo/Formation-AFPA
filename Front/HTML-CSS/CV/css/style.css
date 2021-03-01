@@ -1,0 +1,80 @@
+body {
+    background: url(../img/fond.jpg) no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    background:radial-gradient(white, rgba(14, 139, 241, 0.966));
+    color: whitesmoke;
+    font-family: 'Courgette', cursive;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: black;
+    font-size: 69px;
+    font-weight: bold;
+}
+.d-flex {
+    padding: 15px 15px;
+    border-bottom: 20px solid black;
+}
+h2 {
+    background: radial-gradient(white, rgba(14, 139, 241, 0.966));
+    text-align: center;
+    font-size: 1.9em;
+    font-style: italic;
+    color: black;
+    font-family: 'Volkhov', serif;
+}
+p {
+    margin: 20px 150px;
+}
+.CP {
+    columns: 2;
+    margin: 20px 190px;
+}
+li {
+    list-style: none;
+}
+.CP li img {
+    margin: 5px;
+}
+.row {
+    margin: 30px 105px;
+}
+.row1 {
+    width: 25%;
+    margin: 0px 20px;
+}
+.row2 {
+    width: 5%;
+    margin: 0px 30px;
+}
+.row2 li {
+    margin:5px 0px;
+}
+.row3 {
+    width: 55%;
+}
+.row3 li {
+    margin: 5px;
+}
+.IC {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+.IC p {
+    margin: 5px auto;
+}
+span {
+    color: transparent;
+}
+
+footer {
+    color: transparent;
+    height: 50px;
+    background: radial-gradient(rgb(3, 19, 39), rgba(14, 139, 241, 0.966));
+}
